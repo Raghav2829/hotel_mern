@@ -74,7 +74,7 @@ const Booking = (props) => {
           </button>
         </form>
         <span className="disclaimer">
-          * expired bookings will automatically be deleted
+          * expired bookings will automatically be dDDeleted
         </span>
         {error.length > 0 && <span style={{ color: "red" }}>{error}</span>}
       </section>
